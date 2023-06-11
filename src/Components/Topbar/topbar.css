@@ -1,0 +1,118 @@
+:root{
+    /* Colors */
+    --w: #ffffff;
+    --blk: rgba(0, 0, 0, 1);
+    --blk2: #000000;
+    --blu: #3c4853;
+    --yel: orange;
+    --blu2: #004182;
+    --blu3: #09223b;
+    --gray: #f9fafb;
+    --gray2: #eef3f8;
+    --gray3: #dce6f1;
+    --gray4: #c0d1e2;
+    --gray5: #9db3c8;
+    --gray6: #788fa5;
+    --gray7: #56687a;
+    --gray8: #38434f;
+    --gray9: #293138;
+    --gray10: #1d2226;
+    --gray11: #fafaf9;
+
+    /* Fonts */
+    --av: 'Avenir';
+}
+
+body{
+    font-size: 16px;
+    font-family: var(--av), sans-serif;
+}
+
+.topbar{
+    position: absolute;
+    width: 100%;
+    background-color: var(--blk);
+    color: var(--w);
+    height: 52px;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.topbar .left{ 
+    width: 50%;
+}
+.topbar .left .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topbar .left .container .fa-linkedin{
+    font-size: 40px;
+}
+.topbar .left .container .search{
+    margin-left: .5em;
+    width: 30%;
+    background-color: var(--blu);
+    border-radius: 6px;
+    padding: 0em 5em 0em 0em;
+}
+.topbar .left .container .search input{
+    padding: .7em 1em;
+    border: none;
+    background-color: transparent;
+    font-size: .8em;
+    color: var(--w);
+}
+.topbar .left .container .search input::placeholder{
+    color: var(--w);
+}
+.topbar .left .container .search input:focus{
+    outline: none;
+}
+.topbar .left .container .fa-magnifying-glass{
+    color: var(--w);
+    font-size: 17px;
+}
+
+.topbar .right{
+    width: 50%;
+    display: flex;
+}
+.topbar .right .l{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: .1px solid var(--w);
+}
+.topbar .right .l .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--w);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.topbar .right .l .content i{
+    font-size: 20px;
+}
+
+.topbar .right .r{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.topbar .right .r .links{
+    display: flex;
+    flex-direction: column;
+}
+.topbar .right .r .links a{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--yel);
+}
