@@ -1,4 +1,5 @@
 import React from 'react';
+import './leftbar.css';
 
 function Leftbar() {
   return (
