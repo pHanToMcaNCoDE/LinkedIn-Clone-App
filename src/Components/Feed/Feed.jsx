@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Feed() {
   return (
@@ -8,4 +8,4 @@ function Feed() {
   )
 }
 
-export default Feed
+export default Feed;
