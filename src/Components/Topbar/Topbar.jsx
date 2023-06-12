@@ -18,6 +18,9 @@ function Topbar() {
             <a href='' className='content'>
               <i class="fa-solid fa-house"></i>
               Home
+              <div className='notif'>
+                <div className='inner'></div>
+              </div>
             </a>
             <a href='' className='content'>
               <i class="fa-solid fa-users"></i>

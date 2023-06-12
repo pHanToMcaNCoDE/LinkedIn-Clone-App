@@ -18,6 +18,7 @@
     --gray9: #293138;
     --gray10: #1d2226;
     --gray11: #fafaf9;
+    --cr: crimson;
 
     /* Fonts */
     --av: 'Avenir';
@@ -89,6 +90,7 @@ body{
 }
 .topbar .right .l .content {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -96,7 +98,24 @@ body{
     font-size: 14px;
     font-weight: 500;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 20px;
+}
+.topbar .right .l .content .notif{
+    position: absolute;
+    top: -5%;
+    right: -5%;
+    background-color: var(--cr);
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+}
+.topbar .right .l .content .notif .inner{
+    background-color: var(--w);
+    width: 7px;
+    height: 7px;
+    margin: .3em;
+    border-radius: 50%;
+    justify-content: center;
 }
 .topbar .right .l .content:hover{
     color: var(--w);
@@ -130,8 +149,8 @@ body{
     text-decoration: none;
 }
 .topbar .right .l .account img{
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     border-radius: 50%;
     object-fit: cover;
 }
