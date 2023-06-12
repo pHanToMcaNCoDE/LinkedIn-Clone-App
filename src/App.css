@@ -5,9 +5,11 @@
   --blk2: #000000;
   --blu: #3c4853;
   --yel: orange;
-  --blu2: #004182;
+  --blu2: #70b5f9;
   --blu3: #09223b;
   --blu4: #0073b1;
+  --blu5: #006097;
+  --blu6: #06c;
   --gray: #f9fafb;
   --gray2: #eef3f8;
   --gray3: #dce6f1;
@@ -20,7 +22,20 @@
   --gray10: #1d2226;
   --gray11: #fafaf9;
   --cr: crimson;
+  --r:#fc9295; 
+  --r2: #f55257;
   --o: orange;
+  --g: #7ce3b3;
+  --g2: #3ec786;
+  --g3: #13a05f;
+  --g4: #057642;
+  --g5: #004d2a;
+  --g6: #022716;
+  --am: #f8c77e;
+  --am2: #e7a33e;
+  --am3: #c37d16;
+  --am4: #915907;
+  
 
   /* Fonts */
   --av: 'Avenir';
@@ -35,6 +50,6 @@ body{
   justify-content: space-between;
   align-items: center;
   height: 100vh;
-  padding: 20px 100px;
   color: #fff;
+  padding: 70px 100px;
 }
