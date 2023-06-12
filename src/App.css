@@ -20,6 +20,7 @@
   --gray10: #1d2226;
   --gray11: #fafaf9;
   --cr: crimson;
+  --o: orange;
 
   /* Fonts */
   --av: 'Avenir';
@@ -34,6 +35,6 @@ body{
   justify-content: space-between;
   align-items: center;
   height: 100vh;
-  padding: 100px;
+  padding: 20px 100px;
   color: #fff;
 }

@@ -27,13 +27,18 @@ function Leftbar() {
                 <p>6</p>
               </div>
             </div>
-            <div className='stats'>
-              
+            <div className='s'>
+                <p>Access exclusive tools and insights</p>
+                <div className='lk'>
+                  <div className='sm-box'></div>
+                  <a href=''>Get Hired Faster, Try Premium</a>
+                </div>
             </div>
           </div>
-          <div className='btm'>
-            
-          </div>
+          <a href='' className='btm'>
+            <i class="fa-solid fa-bookmark"></i>
+            <p>My items</p>
+          </a>
         </div>
       </div>
       <div className='right'>
