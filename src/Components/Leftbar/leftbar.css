@@ -3,9 +3,10 @@
     border: 1px solid #fff;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    
 }
 .leftbar .left{
     padding: 3em 5em;
@@ -137,4 +138,36 @@
 
 .leftbar .right{
     position: fixed;
+    top: 57%;
+}
+.leftbar .right .box {
+    background-color: var(--gray10);
+    border: 1px solid var(--gray10);
+    width: 100%;
+    height: 35vh;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+.leftbar .right .box .recent{
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.leftbar .right .box .recent:hover{
+    background-color: var(--gray9);
+}
+.leftbar .right .box .groups {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.leftbar .right .box .events {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
