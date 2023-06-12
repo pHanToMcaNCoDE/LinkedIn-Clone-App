@@ -1,6 +1,5 @@
 .leftbar{
-    flex: 5;
-    border: 1px solid #fff;
+    flex: 6;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
