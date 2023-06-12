@@ -3,7 +3,7 @@ import './feed.css';
 
 function Feed() {
   return (
-    <div>
+    <div className='feed'>
         <h1>Feed</h1>
     </div>
   )
