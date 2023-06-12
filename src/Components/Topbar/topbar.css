@@ -32,7 +32,8 @@ body{
 .topbar{
     position: absolute;
     width: 100%;
-    background-color: var(--blk);
+    background-color: var(--gray10);
+    border-bottom: .1px solid var(--gray5);
     color: var(--w);
     height: 52px;
     top: 0;
@@ -58,6 +59,9 @@ body{
     background-color: var(--blu);
     border-radius: 6px;
     padding: 0em 5em 0em 0em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .topbar .left .container .search input{
     padding: .7em 1em;
@@ -75,6 +79,7 @@ body{
 .topbar .left .container .fa-magnifying-glass{
     color: var(--w);
     font-size: 17px;
+    margin-left: 1%;
 }
 
 .topbar .right{
@@ -128,6 +133,8 @@ body{
     height: 2px;
     display: block;
     transition: all .3s ease;
+    margin-top: 15%;
+    margin-bottom: -18%;
 }
 
 .topbar .right .l .content i{
@@ -171,7 +178,7 @@ body{
     margin-left: 5%;
 }
 .topbar .right .r .links a{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     color: var(--yel);
 }
