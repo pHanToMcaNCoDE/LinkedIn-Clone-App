@@ -10,9 +10,11 @@ function App() {
     <div className="App">
       <>
         <Topbar></Topbar>
-        <Leftbar></Leftbar>
-        <Feed></Feed>
-        <Rightbar></Rightbar>
+        <div className='max-width'>
+          <Leftbar></Leftbar>
+          <Feed></Feed>
+          <Rightbar></Rightbar>
+        </div>
       </>
     </div>
   );
