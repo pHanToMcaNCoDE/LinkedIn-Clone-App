@@ -1,28 +1,4 @@
-:root{
-    /* Colors */
-    --w: #ffffff;
-    --blk: rgba(0, 0, 0, 1);
-    --blk2: #000000;
-    --blu: #3c4853;
-    --yel: orange;
-    --blu2: #004182;
-    --blu3: #09223b;
-    --gray: #f9fafb;
-    --gray2: #eef3f8;
-    --gray3: #dce6f1;
-    --gray4: #c0d1e2;
-    --gray5: #9db3c8;
-    --gray6: #788fa5;
-    --gray7: #56687a;
-    --gray8: #38434f;
-    --gray9: #293138;
-    --gray10: #1d2226;
-    --gray11: #fafaf9;
-    --cr: crimson;
 
-    /* Fonts */
-    --av: 'Avenir';
-}
 
 body{
     font-size: 16px;
