@@ -38,37 +38,44 @@ function Feed() {
           </ul>
         </div>
       </div>
+      <div className='line'>
+        <div className='line'></div>
+        <p>Sort by: Top</p>
+      </div>
       <div className='postFeed'>
         <div className='head'>
-          <div className='left'>
-            <a href=''><img src='' alt=''></img></a>
-            <a href=''>Issac Momodu</a>likes this
-          </div>
+          <a href='' className='left'>
+            <img src='/assets/dp4.jpg' alt='dp'></img>
+            <a href=''>Gabriella Stones</a><p>likes this</p>
+          </a>
           <div className='right'>
-            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.625 7.5C3.625 8.12132 3.12132 8.625 2.5 8.625C1.87868 8.625 1.375 8.12132 1.375 7.5C1.375 6.87868 1.87868 6.375 2.5 6.375C3.12132 6.375 3.625 6.87868 3.625 7.5ZM8.625 7.5C8.625 8.12132 8.12132 8.625 7.5 8.625C6.87868 8.625 6.375 8.12132 6.375 7.5C6.375 6.87868 6.87868 6.375 7.5 6.375C8.12132 6.375 8.625 6.87868 8.625 7.5ZM12.5 8.625C13.1213 8.625 13.625 8.12132 13.625 7.5C13.625 6.87868 13.1213 6.375 12.5 6.375C11.8787 6.375 11.375 6.87868 11.375 7.5C11.375 8.12132 11.8787 8.625 12.5 8.625Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+            <svg width="22" height="22" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.625 7.5C3.625 8.12132 3.12132 8.625 2.5 8.625C1.87868 8.625 1.375 8.12132 1.375 7.5C1.375 6.87868 1.87868 6.375 2.5 6.375C3.12132 6.375 3.625 6.87868 3.625 7.5ZM8.625 7.5C8.625 8.12132 8.12132 8.625 7.5 8.625C6.87868 8.625 6.375 8.12132 6.375 7.5C6.375 6.87868 6.87868 6.375 7.5 6.375C8.12132 6.375 8.625 6.87868 8.625 7.5ZM12.5 8.625C13.1213 8.625 13.625 8.12132 13.625 7.5C13.625 6.87868 13.1213 6.375 12.5 6.375C11.8787 6.375 11.375 6.87868 11.375 7.5C11.375 8.12132 11.8787 8.625 12.5 8.625Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
 
-            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.8536 2.85355C13.0488 2.65829 13.0488 2.34171 12.8536 2.14645C12.6583 1.95118 12.3417 1.95118 12.1464 2.14645L7.5 6.79289L2.85355 2.14645C2.65829 1.95118 2.34171 1.95118 2.14645 2.14645C1.95118 2.34171 1.95118 2.65829 2.14645 2.85355L6.79289 7.5L2.14645 12.1464C1.95118 12.3417 1.95118 12.6583 2.14645 12.8536C2.34171 13.0488 2.65829 13.0488 2.85355 12.8536L7.5 8.20711L12.1464 12.8536C12.3417 13.0488 12.6583 13.0488 12.8536 12.8536C13.0488 12.6583 13.0488 12.3417 12.8536 12.1464L8.20711 7.5L12.8536 2.85355Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+            <svg width="22" height="22" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.8536 2.85355C13.0488 2.65829 13.0488 2.34171 12.8536 2.14645C12.6583 1.95118 12.3417 1.95118 12.1464 2.14645L7.5 6.79289L2.85355 2.14645C2.65829 1.95118 2.34171 1.95118 2.14645 2.14645C1.95118 2.34171 1.95118 2.65829 2.14645 2.85355L6.79289 7.5L2.14645 12.1464C1.95118 12.3417 1.95118 12.6583 2.14645 12.8536C2.34171 13.0488 2.65829 13.0488 2.85355 12.8536L7.5 8.20711L12.1464 12.8536C12.3417 13.0488 12.6583 13.0488 12.8536 12.8536C13.0488 12.6583 13.0488 12.3417 12.8536 12.1464L8.20711 7.5L12.8536 2.85355Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
           </div>
         </div>
+        <div className='line'></div>
         <div className='top'>
-          <button>
+          <div className='postCreator'>
             <div className='l'>
-              <a href=''><img src='' alt=''></img></a>
-              <a href=''>Habibi Lavida</a><p>.2nd</p>
-              <p>Developer @ Brimble hq</p>
-              <p>3h.<i class="fa-solid fa-earth-americas"></i></p>
+              <img src='/assets/dp.jpg' alt='dp'></img>
             </div>
-          </button>
+            <div className='r'>
+                  <a className='first' href=''>Issac Bliss<span>.2nd</span></a>
+                  <a className='second' href=''>Developer @ Brimble hq</a>
+                  <a className='third' href=''>3h.<i class="fa-solid fa-earth-americas"></i></a>
+              </div>
+          </div>
           <div className='comment'>
-            <p>Just In! Mac setup with an M2 ultra studio on its way! 🔥</p>
+            <p className='comment'>Just In! Mac setup with an M2 ultra studio on its way! 🔥</p>
           </div>
         </div>
         <div className='bottom'>
-          <img src='' alt=''></img>
+          <img src='/assets/post2.jpg' alt='A Post'></img>
         </div>
         <div className='tail'></div>
       </div>
-    </div>
+      </div>
   )
 }
 
