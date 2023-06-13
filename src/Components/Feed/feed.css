@@ -1,6 +1,5 @@
 .feed{
-    flex: 10;
-    /* border: 1px solid #fff; */
+    flex: 9;
     height: 100vh;
 }
 .feed .post{
@@ -102,6 +101,9 @@
     background-color: var(--gray7);
     margin-left: 3%;
     margin-right: 1%;
+}
+.sort p{
+    font-size: 14px;
 }
 .feed .postFeed{
     background-color: var(--gray10);

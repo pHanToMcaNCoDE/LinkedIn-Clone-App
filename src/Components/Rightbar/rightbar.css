@@ -1,5 +1,126 @@
 .rightbar{
-    flex: 4;
+    flex: 6;
     border: 1px solid #fff;
     height: 100vh;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100%; */
+}
+.rightbar .box{
+    background-color: var(--gray10);
+    border-radius: 10px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.rightbar .box .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rightbar .box .header h3{
+    font-size: 15px;
+    color: var(--gray3);
+    font-weight: 600;
+    margin-left: 3%;
+}
+.rightbar .box .header a{
+    text-decoration: none;
+    margin-right: 3%;
+}
+.rightbar .box .header a i{
+    font-size: 15px;
+    color: var(--gray3);
+}
+.rightbar .box .list{
+    list-style: none;
+}
+.rightbar .box .list .content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+}
+
+.rightbar .box .list .content .left img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.rightbar .box .list .content .right .first{
+   font-size: 15px;
+   font-weight: 600;
+   color: var(--gray3);
+}
+.rightbar .box .list .content .right .second {
+    font-size: 14px;
+    color: var(--gray5);
+    font-weight: 400;
+}
+.rightbar .box .list .content .right .follow{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    outline: none;
+    padding: 10px 15px;
+    height: 20px;
+    border: 1px solid var(--gray4);
+    color: var(--gray4);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.rightbar .box .list .content .right .follow:hover{
+    background-color: var(--gray9);
+}
+.rightbar .box .bottom{
+    margin: 5%;
+}
+.rightbar .box .bottom a{
+    padding: 1%;
+    font-size: 14px;
+    color: var(--gray3);
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 6px;
+}
+.rightbar .box .bottom a:hover{
+    background-color: var(--gray8);
+}
+
+.rightbar .down{
+    background-color: var(--gray10);
+    margin-top: 3%;
+    border-radius: 10px;
+}
+.rightbar .down .head{
+    display: flex;
+    text-align: right;
+}
+.rightbar .down p{
+    text-align: center;
+}
+.rightbar .down .mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightbar .down .mid img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 2%;
+}
+.rightbar .down .mid i{
+    padding: 2px;
+    background-color: var(--w);
+    font-size: 70px;
+    margin-left: 2%;
+    color: var(--am2);
 }
