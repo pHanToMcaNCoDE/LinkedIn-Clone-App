@@ -38,7 +38,7 @@ function Feed() {
           </ul>
         </div>
       </div>
-      <div className='line'>
+      <div className='sort'>
         <div className='line'></div>
         <p>Sort by: Top</p>
       </div>
@@ -61,19 +61,53 @@ function Feed() {
               <img src='/assets/dp.jpg' alt='dp'></img>
             </div>
             <div className='r'>
-                  <a className='first' href=''>Issac Bliss<span>.2nd</span></a>
-                  <a className='second' href=''>Developer @ Brimble hq</a>
-                  <a className='third' href=''>3h.<i class="fa-solid fa-earth-americas"></i></a>
+                  <a href='' className='first'>Issac Bliss<span><i class="fa-solid fa-circle"></i>  2nd</span></a>
+                  <a href='' className='second'>Blockchain Developer @ Brimble hq | Guitar freak 🎸</a>
+                  <a href='' className='third'>3h.<i class="fa-solid fa-earth-americas"></i></a>
               </div>
           </div>
           <div className='comment'>
-            <p className='comment'>Just In! Mac setup with an M2 ultra studio on its way! 🔥</p>
+            <p>Just In! Mac setup with an M2 ultra studio on its way! 🔥</p>
           </div>
         </div>
         <div className='bottom'>
           <img src='/assets/post2.jpg' alt='A Post'></img>
         </div>
-        <div className='tail'></div>
+        <div className='stats'>
+          <p>
+            <i class="fa-solid fa-thumbs-up"></i><a href=''>Jay Jay Clinton </a> and 3 others
+          </p>
+        </div>
+        <div className='line'></div>
+        <div className='reactions'>
+          <ul>
+            <li>
+              <a href=''>
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p> 
+                <p>0</p>
+              </a>
+            </li>
+            <li>
+              <a href=''>
+                <i class="fa-solid fa-message-dots"></i>
+                <p>Comment</p>
+              </a>
+            </li>
+            <li>
+              <a href=''>
+                <i class="fa-solid fa-repeat"></i>
+                <p>Repost</p>
+              </a>
+            </li>
+            <li>
+              <a href=''>
+                <i class="fa-solid fa-paper-plane"></i>
+                <p>Send</p>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
       </div>
   )
