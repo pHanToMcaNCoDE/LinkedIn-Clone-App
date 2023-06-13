@@ -138,7 +138,7 @@
 }
 
 .leftbar .right{
-    position: fixed;
+    position: sticky;
     top: 59%;
 }
 .leftbar .right .box {

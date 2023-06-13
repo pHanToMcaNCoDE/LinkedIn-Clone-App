@@ -40,7 +40,7 @@ function Feed() {
       </div>
       <div className='sort'>
         <div className='line'></div>
-        <p>Sort by: Top</p>
+        <p>Sort by: Top <i class="fa-solid fa-sort-down"></i></p>
       </div>
       <div className='postFeed'>
         <div className='head'>
