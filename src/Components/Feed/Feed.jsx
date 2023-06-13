@@ -59,12 +59,16 @@ function Feed() {
           <div className='postCreator'>
             <div className='l'>
               <img src='/assets/dp.jpg' alt='dp'></img>
+              <div className='circle'></div>
             </div>
             <div className='r'>
-                  <a href='' className='first'>Issac Bliss<span><i class="fa-solid fa-circle"></i>  2nd</span></a>
-                  <a href='' className='second'>Blockchain Developer @ Brimble hq | Guitar freak 🎸</a>
-                  <a href='' className='third'>3h.<i class="fa-solid fa-earth-americas"></i></a>
+                <a href='' className='first'>Idris Bechkamp<span><i class="fa-solid fa-circle"></i>  2nd</span></a>
+                <a href='' className='second'>Blockchain Developer @ Brimble hq | Guitar freak 🎸</a>
+                <a href='' className='third'>1m.<i class="fa-solid fa-earth-americas"></i></a>
+              <div className='follow'>
+                <a href=''>Follow</a>
               </div>
+            </div>
           </div>
           <div className='comment'>
             <p>Just In! Mac setup with an M2 ultra studio on its way! 🔥</p>
