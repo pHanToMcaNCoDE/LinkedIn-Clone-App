@@ -4,6 +4,15 @@ import './feed.css';
 function Feed() {
 
     const [change, setChange] = useState('+ Follow');
+    const [count, setCount] = useState(0);
+
+    const isCount = (e) =>{
+      e.preventDefault();
+      
+      setCount((currentNumber) => currentNumber + 1);
+    }
+
+    
 
   return (
     <div className='feed'>
@@ -93,10 +102,10 @@ function Feed() {
         <div className='reactions'>
           <ul>
             <li>
-              <a href=''>
+              <a href='' onClick={isCount}>
                 <i class="fa-solid fa-thumbs-up"></i>
                 <p>Like</p> 
-                <p>0</p>
+                <p>{ count }</p>
               </a>
             </li>
             <li>
