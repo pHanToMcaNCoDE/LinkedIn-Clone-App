@@ -81,7 +81,7 @@ function Feed() {
         </div>
         <div className='stats'>
           <p>
-            <i class="fa-solid fa-thumbs-up"></i><a href=''>Jay Jay Clinton </a> and 3 others
+            <i class="fa-solid fa-thumbs-up"></i><a href=''>Jay Jay Thompson </a> and 3 others
           </p>
         </div>
         <div className='line'></div>
