@@ -234,7 +234,7 @@
     font-size: 5px;
     color: var(--gray6);
 }
-.feed .postFeed .top .r .first a:hover {
+.feed .postFeed .top .r .first:hover {
     color: var(--blu2);
     text-decoration: underline;
     text-decoration-color: var(--blu2);
