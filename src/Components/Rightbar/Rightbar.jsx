@@ -25,11 +25,11 @@ function Rightbar() {
             </a>
             <a href='' className='content'>
               <div className='left'>
-                <img src='/assets/dp9.jpg' alt='dp pic'></img>
+                <img src='/assets/dp2.jpg' alt='dp pic'></img>
               </div>
               <div className='right'>
-                  <p className='first'>Audrey Gomez</p>
-                  <p className='second'>Fashion Designer | Cat lover 🐱</p>
+                  <p className='first'>Lizzy Brown 🌹</p>
+                  <p className='second'>Human Resource Expert | Pisces ♓︎</p>
                   <button className='follow'>
                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
                     <p>Follow</p>
@@ -38,13 +38,13 @@ function Rightbar() {
             </a>
             <a href='' className='content'>
               <div className='left'>
-                <img src='/assets/dp9.jpg' alt='dp pic'></img>
+                <img src='/assets/dp8.jpg' alt='dp pic'></img>
               </div>
               <div className='right'>
-                  <p className='first'>Audrey Gomez</p>
-                  <p className='second'>Fashion Designer | Cat lover 🐱</p>
+                  <p className='first'>Daivd Samuel Smith</p>
+                  <p className='second'>Full-Stack Developer @ Google</p>
                   <button className='follow'>
-                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                    {/* <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg> */}
                     <p>Follow</p>
                   </button>
               </div>
