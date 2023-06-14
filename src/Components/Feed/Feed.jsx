@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './feed.css';
 
 function Feed() {
+
     const [change, setChange] = useState('+ Follow');
 
   return (
@@ -68,7 +69,9 @@ function Feed() {
                 <a href='' className='second'>Blockchain Developer @ Brimble hq | Guitar freak 🎸</a>
                 <a href='' className='third'>1m.<i class="fa-solid fa-earth-americas"></i></a>
               <div className='follow'>
-                <a href='' onClick={() => {setChange('Following')}}>
+                <a href='' onClick={(e) => {
+                  e.preventDefault();
+                  setChange('✓ Following')}}>
                   <p>{change}</p>
                 </a>
               </div>
