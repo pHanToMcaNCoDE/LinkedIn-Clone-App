@@ -15,7 +15,7 @@ function Rightbar() {
         <div className='list'>
             <a href='' className='content'>
               <div className='left'>
-                <img src='/assets/dp9.jpg' alt='dp pic'></img>
+                <img src='/assets/dp/dp9.jpg' alt='dp pic'></img>
               </div>
               <div className='right'>
                   <p className='first'>Audrey Gomez</p>
@@ -29,7 +29,7 @@ function Rightbar() {
             </a>
             <a href='' className='content'>
               <div className='left'>
-                <img src='/assets/dp2.jpg' alt='dp pic'></img>
+                <img src='/assets/dp/dp2.jpg' alt='dp pic'></img>
               </div>
               <div className='right'>
                   <p className='first'>Lizzy Brown 🌹</p>
@@ -43,7 +43,7 @@ function Rightbar() {
             </a>
             <a href='' className='content'>
               <div className='left'>
-                <img src='/assets/dp8.jpg' alt='dp pic'></img>
+                <img src='/assets/dp/dp8.jpg' alt='dp pic'></img>
               </div>
               <div className='right'>
                   <p className='first'>Daivd Samuel Smith</p>

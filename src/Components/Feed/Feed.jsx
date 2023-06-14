@@ -57,7 +57,7 @@ function Feed() {
       <div className='postFeed'>
         <div className='head'>
           <a href='' className='left'>
-            <img src='/assets/dp4.jpg' alt='dp'></img>
+            <img src='/assets/dp/dp4.jpg' alt='dp'></img>
             <a href=''>Gabriella Stones</a><p>likes this</p>
           </a>
           <div className='right'>
@@ -70,7 +70,7 @@ function Feed() {
         <div className='top'>
           <div className='postCreator'>
             <div className='l'>
-              <img src='/assets/dp.jpg' alt='dp'></img>
+              <img src='/assets/dp/dp.jpg' alt='dp'></img>
               <div className='circle'></div>
             </div>
             <div className='r'>
@@ -91,7 +91,7 @@ function Feed() {
           </div>
         </div>
         <div className='bottom'>
-          <img src='/assets/post2.jpg' alt='A Post'></img>
+          <img src='/assets/post/post2.jpg' alt='A Post'></img>
         </div>
         <div className='stats'>
           <p>
