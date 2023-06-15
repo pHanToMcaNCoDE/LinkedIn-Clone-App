@@ -1,8 +1,9 @@
-.feed{
+.feed {
     flex: 9;
     height: 100vh;
 }
-.feed .post{
+
+.feed .post {
     background-color: var(--gray10);
     width: 100%;
     height: 18vh;
@@ -11,19 +12,22 @@
     align-items: center;
     border-radius: 6px;
 }
-.feed .post .top{
+
+.feed .post .top {
     display: flex;
     align-items: center;
     width: 100%;
     padding-top: 1%;
 }
-.feed .post .top img{
+
+.feed .post .top img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin-left: 3%;
 }
-.feed .post .top input{
+
+.feed .post .top input {
     width: 75%;
     border-radius: 30px;
     background-color: transparent;
@@ -36,31 +40,38 @@
     margin-left: 2%;
     cursor: pointer;
 }
-.feed .post .top input:hover{
+
+.feed .post .top input:hover {
     background-color: var(--gray8);
 }
-.feed .post .top input::placeholder{
+
+.feed .post .top input::placeholder {
     color: var(--w);
 }
-.feed .post .bottom{
+
+.feed .post .bottom {
     display: flex;
     width: 100%;
 }
-.feed .post .bottom ul{
+
+.feed .post .bottom ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.feed .post .bottom ul li{
+
+.feed .post .bottom ul li {
     list-style: none;
     margin-left: 2em;
     padding: 2px 10px;
 }
-.feed .post .bottom ul li:hover{
+
+.feed .post .bottom ul li:hover {
     background-color: var(--gray9);
     border-radius: 6px;
 }
-.feed .post .bottom ul li a{
+
+.feed .post .bottom ul li a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -69,30 +80,38 @@
     font-weight: 600;
     color: var(--w);
 }
-.feed .post .bottom ul li a i{
+
+.feed .post .bottom ul li a i {
     font-size: 18px;
 }
-.feed .post .bottom ul li a .fa-image{
+
+.feed .post .bottom ul li a .fa-image {
     color: var(--blu2);
 }
+
 .feed .post .bottom ul li a .fa-youtube {
     color: var(--g2);
 }
-.feed .post .bottom ul li a .fa-calendar-week{
+
+.feed .post .bottom ul li a .fa-calendar-week {
     color: var(--am2);
 }
-.feed .post .bottom ul li a .fa-newspaper{
+
+.feed .post .bottom ul li a .fa-newspaper {
     color: var(--r);
 }
-.feed .post .bottom ul li a p{
+
+.feed .post .bottom ul li a p {
     margin-left: 10px;
     font-size: 16px;
     font-weight: 600;
 }
-.sort{
+
+.sort {
     display: flex;
     align-items: center;
 }
+
 .sort .line {
     content: '';
     display: block;
@@ -102,23 +121,27 @@
     margin-left: 3%;
     margin-right: 1%;
 }
-.sort p{
+
+.sort p {
     font-size: 14px;
 }
-.feed .postFeed{
+
+.feed .postFeed {
     background-color: var(--gray10);
     padding: .5%;
     border-radius: 10px;
     width: 100%;
-    height: 86.5vh;
+    margin-top: 2%;
 }
-.feed .postFeed .head{
+
+.feed .postFeed .head {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1% 3%;
 }
-.feed .postFeed .head .left{
+
+.feed .postFeed .head .left {
     width: 50%;
     display: flex;
     align-items: center;
@@ -126,16 +149,19 @@
     outline: none;
     border: none;
 }
-.feed .postFeed .head .left:focus{
+
+.feed .postFeed .head .left:focus {
     outline: none;
 }
-.feed .postFeed .head .left img{
+
+.feed .postFeed .head .left img {
     width: 30px;
     height: 30px;
     object-fit: cover;
     border-radius: 50%;
 }
-.feed .postFeed .head .left a{
+
+.feed .postFeed .head .left a {
     margin-left: 3%;
     color: var(--w);
     outline: none;
@@ -143,19 +169,22 @@
     font-size: 14px;
     font-weight: 600;
 }
-.feed .postFeed .head .left a:hover{
+
+.feed .postFeed .head .left a:hover {
     color: var(--blu2);
     text-decoration: underline;
     text-decoration-color: var(--blu2);
 }
-.feed .postFeed .head .left p{
+
+.feed .postFeed .head .left p {
     margin-left: 2%;
     color: var(--gray5);
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
 }
-.feed .postFeed .line{
+
+.feed .postFeed .line {
     content: '';
     display: block;
     height: .1px;
@@ -163,39 +192,47 @@
     background-color: var(--gray7);
     margin-left: 3%;
 }
-.feed .postFeed .head .right{
+
+.feed .postFeed .head .right {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.feed .postFeed .head .right svg{
+
+.feed .postFeed .head .right svg {
     margin-right: 5px;
     cursor: pointer;
     padding: 5px;
 }
-.feed .postFeed .head .right svg:hover{
+
+.feed .postFeed .head .right svg:hover {
     background-color: var(--gray9);
     border-radius: 50%;
 }
-.feed .postFeed .bottom img{
+
+.feed .postFeed .bottom img {
     width: 100%;
     object-fit: cover;
 }
-.feed .postFeed .top{
+
+.feed .postFeed .top {
     display: block;
     justify-content: space-between;
     align-items: center;
 }
-.feed .postFeed .top .postCreator{
+
+.feed .postFeed .top .postCreator {
     display: flex;
     /* flex-direction: column; */
     align-items: center;
     padding: 1% 3%;
 }
-.feed .postFeed .top .postCreator .l{
+
+.feed .postFeed .top .postCreator .l {
     position: relative;
 }
-.feed .postFeed .top .postCreator .circle{
+
+.feed .postFeed .top .postCreator .circle {
     position: absolute;
     top: 60%;
     right: -5%;
@@ -205,13 +242,15 @@
     background-color: var(--g2);
     border: 1px solid var(--gray10);
 }
-.feed .postFeed .top .postCreator .l img{
+
+.feed .postFeed .top .postCreator .l img {
     width: 50px;
     height: 50px;
     object-fit: cover;
     border-radius: 50%;
 }
-.feed .postFeed .top .postCreator .r{
+
+.feed .postFeed .top .postCreator .r {
     padding: 0;
     margin-left: 3%;
     display: flex;
@@ -220,25 +259,29 @@
     position: relative;
 }
 
-.feed .postFeed .top .postCreator .r .first{
+.feed .postFeed .top .postCreator .r .first {
     font-size: 16px;
     font-weight: 600;
     color: var(--gray3);
     text-decoration: none;
     cursor: pointer;
 }
-.feed .postFeed .top .postCreator .r .first span{
+
+.feed .postFeed .top .postCreator .r .first span {
     margin: 0% 1.5%;
 }
-.feed .postFeed .top .postCreator .r .first span i{
+
+.feed .postFeed .top .postCreator .r .first span i {
     font-size: 5px;
     color: var(--gray6);
 }
+
 .feed .postFeed .top .r .first:hover {
     color: var(--blu2);
     text-decoration: underline;
     text-decoration-color: var(--blu2);
 }
+
 .feed .postFeed .top .postCreator .r .second {
     font-size: 14px;
     font-weight: 400;
@@ -246,72 +289,86 @@
     text-decoration: none;
     cursor: pointer;
 }
-.feed .postFeed .top .postCreator .r .third{
+
+.feed .postFeed .top .postCreator .r .third {
     font-size: 15px;
     font-weight: 500;
     color: var(--gray5);
     text-decoration: none;
     cursor: pointer;
 }
-.feed .postFeed .top .postCreator .r .follow{
+
+.feed .postFeed .top .postCreator .r .follow {
     position: absolute;
     top: -2%;
-    right: -66%;
+    right: -50%;
 }
-.feed .postFeed .top .postCreator .r .follow a{
+
+.feed .postFeed .top .postCreator .r .follow a {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: var(--blu2);
     border-radius: 6px;
 }
-.feed .postFeed .top .postCreator .r .follow a p{
+
+.feed .postFeed .top .postCreator .r .follow a p {
     font-size: 16px;
     font-weight: 600;
     padding: 0px 3px;
 }
-.feed .postFeed .top .postCreator .r .follow a:hover{
+
+.feed .postFeed .top .postCreator .r .follow a:hover {
     background-color: var(--blu);
 }
-.feed .postFeed .top .comment{
+
+.feed .postFeed .top .comment {
     padding: 0% 3% 1% 3%;
 }
-.feed .postFeed .stats{
+
+.feed .postFeed .stats {
     margin: 0% 2%;
 }
-.feed .postFeed .stats p{
+
+.feed .postFeed .stats p {
     font-size: 12px;
     display: flex;
     align-items: center;
 }
-.feed .postFeed .stats p i{
+
+.feed .postFeed .stats p i {
     background-color: var(--blu4);
     border-radius: 50%;
     padding: 1%;
     margin-left: 5px;
     margin-right: 5px;
 }
-.feed .postFeed .stats p a{
+
+.feed .postFeed .stats p a {
     font-size: 12px;
     color: var(--gray3);
     margin-right: 1%;
     text-decoration: none;
     cursor: pointer;
 }
-.feed .postFeed .stats p a:hover{
+
+.feed .postFeed .stats p a:hover {
     color: var(--blu2);
     text-decoration: underline;
     text-decoration-color: var(--blu2);
 }
-.feed .postFeed .reactions ul{
+
+.feed .postFeed .reactions ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.feed .postFeed .reactions ul li{
+
+.feed .postFeed .reactions ul li {
     list-style: none;
 }
-.feed .postFeed .reactions ul li a{
+
+.feed .postFeed .reactions ul li a {
     border-radius: 6px;
     margin-right: 30px;
     padding: 1px 20px;
@@ -321,14 +378,16 @@
     font-size: 17px;
     color: var(--gray2);
 }
-.feed .postFeed .reactions ul li a:hover{
+
+.feed .postFeed .reactions ul li a:hover {
     background-color: var(--gray8);
 }
+
 .feed .postFeed .reactions ul li a i {
     font-size: 20px;
 }
-.feed .postFeed .reactions ul li a p{
+
+.feed .postFeed .reactions ul li a p {
     margin-left: 10px;
     font-weight: 600;
 }
-

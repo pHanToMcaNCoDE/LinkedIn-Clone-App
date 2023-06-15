@@ -138,8 +138,9 @@
 }
 
 .leftbar .right{
-    position: sticky;
+    position: absolute;
     top: 59%;
+    left: 7.5%;
 }
 .leftbar .right .box {
     background-color: var(--gray10);

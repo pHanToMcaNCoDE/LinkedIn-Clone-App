@@ -5,7 +5,8 @@ body{
     font-family: var(--av), sans-serif;
 }
 .topbar{
-    position: absolute;
+    position: fixed;
+    z-index: 999;
     width: 100%;
     background-color: var(--gray10);
     border-bottom: .1px solid var(--gray5);
