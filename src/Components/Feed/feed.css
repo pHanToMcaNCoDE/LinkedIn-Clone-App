@@ -1,12 +1,12 @@
 .feed {
-    flex: 9;
+    width: 50%;
     height: 100vh;
 }
 
 .feed .post {
     background-color: var(--gray10);
     width: 100%;
-    height: 18vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,8 +62,8 @@
 
 .feed .post .bottom ul li {
     list-style: none;
-    margin-left: 2em;
-    padding: 2px 10px;
+    margin-left: 1em;
+    padding: 1px 10px;
 }
 
 .feed .post .bottom ul li:hover {
@@ -116,7 +116,7 @@
     content: '';
     display: block;
     height: .1px;
-    width: 80%;
+    width: 78%;
     background-color: var(--gray7);
     margin-left: 3%;
     margin-right: 1%;
@@ -131,7 +131,7 @@
     padding: .5%;
     border-radius: 10px;
     width: 100%;
-    margin-top: 2%;
+    margin-top: 10px;
 }
 
 .feed .postFeed .head {
@@ -301,7 +301,7 @@
 .feed .postFeed .top .postCreator .r .follow {
     position: absolute;
     top: -2%;
-    right: -50%;
+    right: -35%;
 }
 
 .feed .postFeed .top .postCreator .r .follow a {
@@ -370,8 +370,8 @@
 
 .feed .postFeed .reactions ul li a {
     border-radius: 6px;
-    margin-right: 30px;
-    padding: 1px 20px;
+    margin-right: 20px;
+    padding: 1px 10px;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -388,6 +388,6 @@
 }
 
 .feed .postFeed .reactions ul li a p {
-    margin-left: 10px;
+    margin-left: 5px;
     font-weight: 600;
 }
