@@ -160,3 +160,11 @@ body{
     font-weight: 300;
     color: var(--yel);
 }
+
+/* Responsive Design */
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .topbar .left .container .search input {
+        display: none;
+    }
+}
