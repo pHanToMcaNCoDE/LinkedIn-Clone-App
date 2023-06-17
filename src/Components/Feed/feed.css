@@ -1,12 +1,13 @@
 .feed {
     width: 50%;
     height: 100vh;
+    max-width: 960px;
 }
 
 .feed .post {
     background-color: var(--gray10);
+    /* max-width: 500px; */
     width: 100%;
-    height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
