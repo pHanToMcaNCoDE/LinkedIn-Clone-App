@@ -167,4 +167,17 @@ body{
     .topbar .left .container .search input {
         display: none;
     }
+    .topbar .left .container .search {
+        width: 10%;
+        background-color: transparent;
+        margin-left: 1em;
+    }
+    .topbar .right .l {
+        border: none;
+    }
+    .topbar .right .r{
+        display: none;
+    }
+    
+
 }
