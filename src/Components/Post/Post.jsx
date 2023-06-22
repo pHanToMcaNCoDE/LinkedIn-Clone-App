@@ -66,7 +66,7 @@ function Post({feeds}) {
               </div>
               <div className='r'>
                 <div className='text'>
-                    <a href='' className='first'>{feed.username}<span><i class="fa-solid fa-circle"></i>  {feed.rank}</span></a>
+                    <a href='' className='first'>{feed.username}  <span><i class="fa-solid fa-circle"></i>  {feed.rank}</span></a>
                     <a href='' className='second'>{feed.role}</a>
                     <a href='' className='third'>1m.<i class="fa-solid fa-earth-americas"></i></a>
                 </div>
