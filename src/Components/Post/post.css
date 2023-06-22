@@ -250,7 +250,7 @@
     margin-left: 3%;
     width: 90%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     position: relative;
 }
@@ -267,12 +267,8 @@
     cursor: pointer;
 }
 
-.postFeed .top .postCreator .r .text .first span {
-    margin: 0% 1.5%;
-}
-
 .postFeed .top .postCreator .r .text .first span i {
-    font-size: 5px;
+    font-size: 4px;
     color: var(--gray6);
 }
 
@@ -297,16 +293,13 @@
     text-decoration: none;
     cursor: pointer;
 }
-.postFeed .top .postCreator .r .follow{
-    position: absolute;
-    right: 0;
-}
+
 .postFeed .top .postCreator .r .follow a{
     display: flex;
     align-items: center;
     text-decoration: none;
     color: var(--blu2);
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 .postFeed .top .postCreator .r .follow a p {
