@@ -246,3 +246,26 @@
         display: none;
     }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .leftbar {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .leftbar {
+        display: flex;
+        width: 20%;
+        position: absolute;
+        margin-top: 2%;
+    }
+
+    .leftbar .right{
+        margin-top: 0%;
+    }
+
+    .leftbar .right .box{
+        width: 28vw;
+    }
+}
