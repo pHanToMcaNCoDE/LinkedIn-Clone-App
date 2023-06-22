@@ -53,3 +53,33 @@ body{
   color: #fff;
   padding: 70px 100px;
 }
+.app{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Responsive Design */
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+  .app{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .app {
+    display: flex;
+  }
+}
