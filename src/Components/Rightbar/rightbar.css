@@ -233,3 +233,15 @@
         display: none;
     }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .rightbar {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .rightbar {
+        display: none;
+    }
+}
