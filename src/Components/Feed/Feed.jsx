@@ -14,8 +14,8 @@ function Feed() {
         rank: "3rd",
         profilePicture: '/assets/dp/dp.jpg',
         username: "Idris Beckhamp",
-        role: "Blockchain Developer @ Brimble hq | Guitar freak 🎸"
-
+        role: "Blockchain Developer @ Brimble hq | Guitar freak 🎸",
+        isFollow: false
     },
     {
         id: 2,
@@ -26,7 +26,8 @@ function Feed() {
         rank: "1st",
         profilePicture: '/assets/dp/dp2.jpg',
         username: "Lizzy Brown",
-        role: "Product Designer || Project Manager."
+        role: "Product Designer || Project Manager.",
+        isFollow: false
     },
     {
         id: 3,
@@ -37,7 +38,8 @@ function Feed() {
         rank: "2nd",
         profilePicture: '/assets/dp/dp3.jpg',
         username: "Jennifer Jones",
-        role: "Photographer | Tourist"
+        role: "Photographer | Tourist",
+        isFollow: false
     },
     {
         id: 4,
@@ -48,7 +50,8 @@ function Feed() {
         rank: "2nd",
         profilePicture: '/assets/dp/dp4.jpg',
         username: "Kate Wright",
-        role: "Lead Architect @ HKS."
+        role: "Lead Architect @ HKS.",
+        isFollow: false
     },
     {
         id: 5,
@@ -59,7 +62,8 @@ function Feed() {
         like: 1234,
         profilePicture: '/assets/dp/dp5.jpg',
         username: "Tory Vega",
-        role: "Human (Male) Activist"
+        role: "Human (Male) Activist",
+        isFollow: false
     },
     {
         id: 6,
@@ -70,7 +74,8 @@ function Feed() {
         rank: "1st",
         profilePicture: '/assets/dp/dp6.jpg',
         username: "J. J. Luiz",
-        role: "Fashion Designer at Louis Vuitton"
+        role: "Fashion Designer at Louis Vuitton",
+        isFollow: false
     },
     {
         id: 7,
@@ -81,7 +86,8 @@ function Feed() {
         rank: "3rd",
         profilePicture: '/assets/dp/dp7.jpg',
         username: "Rio Sanchez",
-        role: "Video Editor | Movie Director"
+        role: "Video Editor | Movie Director",
+        isFollow: false
     },
     {
         id: 8,
@@ -92,7 +98,8 @@ function Feed() {
         rank: "2nd",
         profilePicture: '/assets/dp/dp8.jpg',
         username: "David Samuel Smith",
-        role: "Software Engineer || Backend Developer || MERN Stack"
+        role: "Software Engineer || Backend Developer || MERN Stack",
+        isFollow: false
     },
     {
         id: 9,
@@ -103,7 +110,8 @@ function Feed() {
         rank: "4th",
         profilePicture: '/assets/dp/dp9.jpg',
         username: "Audrey Gomez",
-        role: "---"
+        role: "---",
+        isFollow: false
     }
   ])
 

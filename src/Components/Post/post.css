@@ -301,7 +301,7 @@
     cursor: pointer;
 }
 
-.postFeed .top .postCreator .r .follow a{
+.postFeed .top .postCreator .r .follow input{
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -309,7 +309,7 @@
     border-radius: 10px;
 }
 
-.postFeed .top .postCreator .r .follow a p {
+.postFeed .top .postCreator .r .follow input p {
     font-size: 16px;
     font-weight: 600;
     padding: 0px 3px;

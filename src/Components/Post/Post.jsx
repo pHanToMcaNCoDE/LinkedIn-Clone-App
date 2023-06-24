@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './post.css'
 
 function Post({feeds}) {
+const [outsideindex, setoutsideindex]=useState(1)
+const [follow, setFollow]=useState('+ Follow')
 
+const isFollow = (e) => {
+  e.preventDefault()  
+  setFollow((currentState) => currentState ='✔️ Following');
+}
   return (
     <div>
     <div className='post'>
@@ -44,8 +50,8 @@ function Post({feeds}) {
         <p>Sort by: Top <i class="fa-solid fa-sort-down"></i></p>
       </div>
       
-        {feeds.map((feed) => (
-          <div className='postFeed' key={feed.id}>
+        {feeds.map((feed, index) => (
+          <div className='postFeed' key={index}>
             <div className='head'>
             <a href='' className='left'>
               <img src='/assets/dp/dp9.jpg' alt='dp'></img>
@@ -70,9 +76,9 @@ function Post({feeds}) {
                     <a href='' className='second'>{feed.role}</a>
                     <a href='' className='third'>1m.<i class="fa-solid fa-earth-americas"></i></a>
                 </div>
-                <div className='follow'>
+                <div className='follow' onClick={isFollow}>
                     <a href=''>
-                      <p>+ Follow</p>
+                      <p>{follow}</p>
                     </a>
                 </div>
               </div>
