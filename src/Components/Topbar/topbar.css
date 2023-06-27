@@ -189,12 +189,8 @@ body{
     .topbar .right .l .content {
         margin-top: 50px;
     }
-    .topbar .left .container .search input {
-        display: none;
-    }
     .topbar .left .container .search {
-        width: 10%;
-        background-color: transparent;
+        width: 90%;
         margin-left: 1em;
     }
     .topbar .right .l {
