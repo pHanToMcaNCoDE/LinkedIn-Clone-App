@@ -2,7 +2,7 @@
 .post {
     background-color: var(--gray10);
     width: 100%;
-    max-width: 480px;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,7 +128,7 @@
     padding: .5%;
     border-radius: 10px;
     width: 100%;
-    max-width: 480px;
+    max-width: 560px;
     margin: 10px auto 0px auto;
 }
 
@@ -218,6 +218,7 @@
 .postFeed .bottom img {
     width: 100%;
     object-fit: cover;
+    border: 1px solid var(--gray10);
 }
 
 .postFeed .top {
@@ -303,7 +304,7 @@
     cursor: pointer;
 }
 
-.postFeed .top .postCreator .r .follow input{
+.postFeed .top .postCreator .r .follow a{
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -311,7 +312,7 @@
     border-radius: 10px;
 }
 
-.postFeed .top .postCreator .r .follow input p {
+.postFeed .top .postCreator .r .follow a p {
     font-size: 16px;
     font-weight: 600;
     padding: 0px 3px;
@@ -319,6 +320,7 @@
 
 .postFeed .top .postCreator .r .follow:hover {
     background-color: var(--blu);
+    border-radius: 6px;
 }
 
 .postFeed .top .comment {
