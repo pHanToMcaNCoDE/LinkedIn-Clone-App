@@ -6,9 +6,9 @@ function Topbar() {
     <div className='topbar'>
       <div className='left'>
         <div className='container'>
-          <i class="fa-brands fa-linkedin"></i>
+          <i className="fa-brands fa-linkedin"></i>
           <div className='search'>
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <i className="fa-solid fa-magnifying-glass"></i>
             <input name="search" placeholder='Search'></input>
           </div>
         </div>
@@ -19,26 +19,26 @@ function Topbar() {
         </div>
         <div className='l'>
             <a href='' className='content'>
-              <i class="fa-solid fa-house"></i>
+              <i className="fa-solid fa-house"></i>
               Home
               <div className='notif'>
                 <div className='inner'></div>
               </div>
             </a>
             <a href='' className='content'>
-              <i class="fa-solid fa-users"></i>
+              <i className="fa-solid fa-users"></i>
               My Network
             </a>
             <a href='' className='content'>
-              <i class="fa-solid fa-suitcase"></i>
+              <i className="fa-solid fa-suitcase"></i>
               Jobs
               </a>
             <a href='' className='content'>
-              <i class="fa-solid fa-comment-dots"></i>
+              <i className="fa-solid fa-comment-dots"></i>
               Messaging
             </a>
             <a href='' className='content'>
-              <i class="fa-solid fa-bell"></i>
+              <i className="fa-solid fa-bell"></i>
               Notifications
             </a>
           <div className='account'>
