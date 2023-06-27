@@ -20,25 +20,25 @@ const isFollow = (e) => {
           <ul>
             <li>
               <a href=''>
-                <i class="fa-solid fa-image"></i> 
+                <i className="fa-solid fa-image"></i> 
                 <p>Photo</p>
               </a>
             </li>
             <li>
               <a href=''>
-                <i class="fa-brands fa-youtube"></i> 
+                <i className="fa-brands fa-youtube"></i> 
                 <p>Video</p>
               </a>
             </li>
             <li>
               <a href=''>
-                <i class="fa-solid fa-calendar-week"></i>
+                <i className="fa-solid fa-calendar-week"></i>
                 <p>Event</p>
               </a>
             </li>
             <li>
               <a href=''>
-                <i class="fa-solid fa-newspaper"></i>
+                <i className="fa-solid fa-newspaper"></i>
                 <p>Write article</p>
               </a>
             </li>
@@ -47,7 +47,7 @@ const isFollow = (e) => {
       </div>
       <div className='sort'>
         <div className='line'></div>
-        <p>Sort by: Top <i class="fa-solid fa-sort-down"></i></p>
+        <p>Sort by: Top <i className="fa-solid fa-sort-down"></i></p>
       </div>
       
         {feeds.map((feed, index) => (
@@ -72,9 +72,9 @@ const isFollow = (e) => {
               </div>
               <div className='r'>
                 <div className='text'>
-                    <a href='' className='first'>{feed.username}  <span><i class="fa-solid fa-circle"></i>  {feed.rank}</span></a>
+                    <a href='' className='first'>{feed.username}  <span><i className="fa-solid fa-circle"></i>  {feed.rank}</span></a>
                     <a href='' className='second'>{feed.role}</a>
-                    <a href='' className='third'>1m.<i class="fa-solid fa-earth-americas"></i></a>
+                    <a href='' className='third'>1m.<i className="fa-solid fa-earth-americas"></i></a>
                 </div>
                 <div className='follow' onClick={isFollow}>
                     <a href=''>
@@ -92,7 +92,7 @@ const isFollow = (e) => {
           </div>
           <div className='stats'>
             <p>
-              <i class="fa-solid fa-thumbs-up"></i><a href=''>Mimi Henandez </a> and {feed.like} others
+              <i className="fa-solid fa-thumbs-up"></i><a href=''>Mimi Henandez </a> and {feed.like} others
             </p>
           </div>
           <div className='line'></div>
@@ -100,26 +100,26 @@ const isFollow = (e) => {
             <ul>
               <li>
                 <a href=''>
-                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i className="fa-solid fa-thumbs-up"></i>
                   <p>Like</p> 
                   <p>0</p>
                 </a>
               </li>
               <li>
                 <a href=''>
-                  <i class="fa-solid fa-message"></i>
+                  <i className="fa-solid fa-message"></i>
                   <p>Comment</p>
                 </a>
               </li>
               <li>
                 <a href=''>
-                  <i class="fa-solid fa-repeat"></i>
+                  <i className="fa-solid fa-repeat"></i>
                   <p>Repost</p>
                 </a>
               </li>
               <li>
                 <a href=''>
-                  <i class="fa-solid fa-paper-plane"></i>
+                  <i className="fa-solid fa-paper-plane"></i>
                   <p>Send</p>
                 </a>
               </li>
