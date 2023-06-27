@@ -10,7 +10,7 @@ function Rightbar() {
       <div className='box'>
         <div className='header'>
           <h3>Add to your feed</h3>
-          <a href=''><i class="fa-solid fa-circle-exclamation"></i></a>
+          <a href=''><i className="fa-solid fa-circle-exclamation"></i></a>
         </div>
         <div className='list'>
             <a href='' className='content'>
@@ -57,7 +57,7 @@ function Rightbar() {
             </a>
         </div>
         <div className='bottom'>
-            <a href=''>View all recommendations <i class="fa-solid fa-arrow-right"></i></a>
+            <a href=''>View all recommendations <i className="fa-solid fa-arrow-right"></i></a>
         </div>
       </div>
       <div className='down'>
@@ -68,7 +68,7 @@ function Rightbar() {
         <p>Phantom, bost your job search with Premium</p>
         <a href='' className='mid'>
           <img src='/assets/acc.png' alt='dp pic'></img>
-          <abbr title='Linkedin Premium'><i class="fa-brands fa-linkedin"></i></abbr>
+          <abbr title='Linkedin Premium'><i className="fa-brands fa-linkedin"></i></abbr>
         </a>
         <p>See who's viewed your profile in the last 90 days</p>
         <button className='end'>Try for free!</button>
@@ -80,19 +80,19 @@ function Rightbar() {
           <a href=''>Help Center</a>
         </div>
         <div className='row'>
-          <a href=''>Privacy and Terms<i class="fa-solid fa-sort-down"></i></a>
+          <a href=''>Privacy and Terms<i className="fa-solid fa-sort-down"></i></a>
           <a href=''>Ad Choice</a>
         </div>
         <div className='row'>
           <a href=''>Advertising</a>
-          <a href=''>Business Services<i class="fa-solid fa-sort-down"></i></a>
+          <a href=''>Business Services<i className="fa-solid fa-sort-down"></i></a>
         </div>
         <div className='row'>
           <a href=''>Get the LinkedIn app</a>
           <a href=''>More</a>
         </div>
         <div className='copyright'>
-          <p>Linked<i class="fa-brands fa-linkedin"></i>LinkedIn Corperations &copy;</p>
+          <p>Linked<i className="fa-brands fa-linkedin"></i>LinkedIn Corperations &copy;</p>
         </div>
       </div>
       <a className='messages'>
