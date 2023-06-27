@@ -36,7 +36,7 @@ function Leftbar() {
             </div>
           </div>
           <a href='' className='btm'>
-            <i class="fa-solid fa-bookmark"></i>
+            <i className="fa-solid fa-bookmark"></i>
             <p>My items</p>
           </a>
         </div>
