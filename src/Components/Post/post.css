@@ -512,7 +512,40 @@
 /* Medium Screens */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     .post {
-        display: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .post .bottom ul {
+        flex-wrap: wrap;
+    }
+
+    .post .bottom li {
+        margin-right: 2em;
+    }
+
+    .post .bottom ul li a i {
+        font-size: 18px;
+    }
+
+    .post .bottom ul li a .fa-image {
+        color: var(--blu2);
+    }
+
+    .post .bottom ul li a .fa-youtube {
+        color: var(--g2);
+    }
+
+    .post .bottom ul li a .fa-calendar-week {
+        color: var(--am2);
+    }
+
+    .post .bottom ul li a .fa-newspaper {
+        color: var(--r);
+    }
+
+    .post .bottom ul li a p {
+        display: flex;
     }
 
     .sort {
@@ -521,7 +554,6 @@
 
     .postFeed {
         width: 100%;
-        margin: 1% auto 0 auto;
     }
 
     .postFeed .head {
@@ -553,7 +585,7 @@
         display: none;
     }
 
-    .postFeed .head .left img {
+    postFeed .head .left img {
         width: 20px;
         height: 20px;
     }
@@ -588,6 +620,10 @@
         margin-right: 5px;
     }
 
+    .postFeed .top .comment p {
+        font-size: 13px;
+    }
+
     .postFeed .stats p a {
         font-size: 12px;
         color: var(--gray3);
@@ -602,6 +638,7 @@
         text-decoration-color: var(--blu2);
     }
 }
+
 
 /* Medium Screens */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {

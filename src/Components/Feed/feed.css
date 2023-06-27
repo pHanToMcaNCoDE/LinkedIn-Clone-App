@@ -29,7 +29,7 @@
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .feed {
-        width: 90%;
+        width: 60%;
         position: absolute;
         left: 40%;
     }
